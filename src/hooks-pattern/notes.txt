@@ -1,6 +1,8 @@
 
 El patrón de Hooks en React, introducido en React 16.8, proporciona una forma de agregar estado y otras características de React a los componentes de función sin tener que escribir una clase. Aquí hay algunos pros y contras asociados con el uso del patrón de Hooks en React:
 
+
+
 Pros:
 
 Simplicidad de Sintaxis: Los Hooks simplifican la sintaxis y la estructura del código al permitir que los componentes de función tengan estado, ciclos de vida y otras características que antes solo estaban disponibles en los componentes de clase.

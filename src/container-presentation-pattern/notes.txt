@@ -1,3 +1,6 @@
+es una forma de estructurar componentes en React con el objetivo de separar las responsabilidades entre la lógica de presentación y la lógica de estado o negocio. Este patrón se centra en mantener una clara separación de preocupaciones, facilitando el mantenimiento y la reutilización del código.
+
+
 Pros:
 
 Separación de Responsabilidades: Este patrón promueve una clara separación de responsabilidades entre la lógica de presentación y la lógica de negocio. Los contenedores manejan el estado y las operaciones, mientras que los componentes presentacionales se centran en la interfaz de usuario.

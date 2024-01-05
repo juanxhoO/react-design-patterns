@@ -1,3 +1,8 @@
+Un HOC es, en sí mismo, una función que toma un componente y devuelve un nuevo componente con funcionalidades adicionales o modificadas. La idea central es encapsular la funcionalidad compartida de manera que pueda ser fácilmente aplicada a varios componentes sin tener que duplicar el código.
+
+
+
+
 Pros:
 
 Reutilización de Lógica: Permite la reutilización de lógica entre varios componentes. Puedes encapsular la funcionalidad común en un HOC y aplicarlo a diferentes componentes según sea necesario.

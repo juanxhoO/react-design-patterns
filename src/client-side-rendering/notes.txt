@@ -1,13 +1,4 @@
-Pros:
-
-Interactividad y Experiencia del Usuario: Con CSR, la mayoría del código se ejecuta en el navegador del cliente, lo que permite una carga inicial más rápida y una experiencia de usuario más interactiva después de la carga inicial de la página.
-
-Fácil Implementación de SPA: El CSR es fundamental para la creación de aplicaciones de una sola página (Single Page Applications o SPA), donde las transiciones entre páginas se gestionan de manera suave sin la necesidad de recargar toda la página.
-
-Mayor Flexibilidad en la Interfaz de Usuario: Al tener más lógica en el cliente, se pueden realizar actualizaciones de la interfaz de usuario de manera rápida y eficiente sin depender de nuevas solicitudes al servidor.
-
-Facilita la Integración con API RESTful: Las aplicaciones React del lado del cliente son compatibles con arquitecturas de servicios RESTful, lo que facilita la integración con servicios y API basados en HTTP.
-
+es un enfoque de diseño en el desarrollo de aplicaciones web con React donde la mayoría del procesamiento y renderizado ocurre en el lado del cliente, es decir, en el navegador del usuario. Este enfoque contrasta con el Server-Side Rendering (SSR), donde el contenido HTML se genera en el servidor antes de ser enviado al cliente.
 
 
 Pros:
@@ -19,3 +10,20 @@ Fácil Implementación de SPA: El CSR es fundamental para la creación de aplica
 Mayor Flexibilidad en la Interfaz de Usuario: Al tener más lógica en el cliente, se pueden realizar actualizaciones de la interfaz de usuario de manera rápida y eficiente sin depender de nuevas solicitudes al servidor.
 
 Facilita la Integración con API RESTful: Las aplicaciones React del lado del cliente son compatibles con arquitecturas de servicios RESTful, lo que facilita la integración con servicios y API basados en HTTP.
+
+
+
+
+
+Contras:
+
+SEO (Optimización para Motores de Búsqueda): Uno de los desafíos clave del CSR es que puede ser menos favorable para la optimización de motores de búsqueda (SEO) debido a que el contenido inicialmente no se renderiza en el servidor. Aunque Google y otros motores de búsqueda han mejorado en el manejo de aplicaciones basadas en JavaScript, sigue siendo un área a considerar.
+
+Tiempo de Carga Inicial Potencialmente Mayor: La carga inicial de la aplicación puede llevar más tiempo, ya que el navegador necesita descargar y ejecutar el código de JavaScript antes de mostrar la página. Esto puede resultar en una experiencia de usuario menos óptima, especialmente en conexiones lentas.
+
+Requerimientos de Recursos del Cliente: Las aplicaciones del lado del cliente pueden requerir más recursos del cliente, ya que el navegador debe ejecutar y mantener el código JavaScript. Esto puede ser un problema en dispositivos con recursos limitados.
+
+Dependencia del JavaScript: Si un usuario tiene deshabilitado JavaScript, la aplicación no funcionará correctamente, ya que gran parte de la lógica reside en el cliente. Esto puede afectar la accesibilidad y la experiencia del usuario en ciertos casos.
+
+Problemas de Seguridad: El código JavaScript que se ejecuta en el navegador del cliente es accesible para cualquier usuario. Esto puede plantear riesgos de seguridad si no se manejan adecuadamente las validaciones y la protección contra ataques como Cross-Site Scripting (XSS).
+
