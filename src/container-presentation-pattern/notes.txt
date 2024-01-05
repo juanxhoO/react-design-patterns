@@ -1,0 +1,22 @@
+Pros:
+
+Separación de Responsabilidades: Este patrón promueve una clara separación de responsabilidades entre la lógica de presentación y la lógica de negocio. Los contenedores manejan el estado y las operaciones, mientras que los componentes presentacionales se centran en la interfaz de usuario.
+
+Reutilización de Componentes Presentacionales: Los componentes presentacionales son altamente reutilizables, ya que no están acoplados a la lógica específica de la aplicación. Pueden ser utilizados en diferentes contextos sin la necesidad de modificar su código.
+
+Facilita las Pruebas (Testing): La separación de la lógica de presentación y la lógica de negocio facilita las pruebas unitarias. Los componentes presentacionales pueden ser probados con mayor facilidad, ya que no dependen del estado de la aplicación.
+
+Claridad del Código: Al seguir este patrón, el código tiende a ser más claro y fácil de entender. Los contenedores contienen la complejidad, mientras que los componentes presentacionales se centran en la apariencia y la estructura de la interfaz de usuario.
+
+
+
+
+Contras:
+
+Posible Exceso de Contenedores: En aplicaciones pequeñas o sencillas, la introducción de contenedores puede parecer excesiva y añadir complejidad innecesaria. En estos casos, el patrón podría resultar demasiado estructurado.
+
+Comunicación entre Contenedores y Presentacionales: A veces, la comunicación entre contenedores y componentes presentacionales puede requerir el paso de muchas propiedades (props) a través de varios niveles de componentes, lo que puede volverse tedioso.
+
+Curva de Aprendizaje: Para los desarrolladores que no están familiarizados con este patrón, puede haber una curva de aprendizaje inicial para entender la distinción entre contenedores y componentes presentacionales y cómo se comunican entre sí.
+
+No Siempre es una Separación Clara: En algunos casos, la línea entre lo que debería ser un componente contenedor y un componente presentacional puede volverse borrosa, especialmente en aplicaciones más complejas.

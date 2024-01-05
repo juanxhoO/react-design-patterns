@@ -1,0 +1,21 @@
+Pros:
+
+Interactividad y Experiencia del Usuario: Con CSR, la mayoría del código se ejecuta en el navegador del cliente, lo que permite una carga inicial más rápida y una experiencia de usuario más interactiva después de la carga inicial de la página.
+
+Fácil Implementación de SPA: El CSR es fundamental para la creación de aplicaciones de una sola página (Single Page Applications o SPA), donde las transiciones entre páginas se gestionan de manera suave sin la necesidad de recargar toda la página.
+
+Mayor Flexibilidad en la Interfaz de Usuario: Al tener más lógica en el cliente, se pueden realizar actualizaciones de la interfaz de usuario de manera rápida y eficiente sin depender de nuevas solicitudes al servidor.
+
+Facilita la Integración con API RESTful: Las aplicaciones React del lado del cliente son compatibles con arquitecturas de servicios RESTful, lo que facilita la integración con servicios y API basados en HTTP.
+
+
+
+Pros:
+
+Interactividad y Experiencia del Usuario: Con CSR, la mayoría del código se ejecuta en el navegador del cliente, lo que permite una carga inicial más rápida y una experiencia de usuario más interactiva después de la carga inicial de la página.
+
+Fácil Implementación de SPA: El CSR es fundamental para la creación de aplicaciones de una sola página (Single Page Applications o SPA), donde las transiciones entre páginas se gestionan de manera suave sin la necesidad de recargar toda la página.
+
+Mayor Flexibilidad en la Interfaz de Usuario: Al tener más lógica en el cliente, se pueden realizar actualizaciones de la interfaz de usuario de manera rápida y eficiente sin depender de nuevas solicitudes al servidor.
+
+Facilita la Integración con API RESTful: Las aplicaciones React del lado del cliente son compatibles con arquitecturas de servicios RESTful, lo que facilita la integración con servicios y API basados en HTTP.

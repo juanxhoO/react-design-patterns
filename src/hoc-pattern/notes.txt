@@ -1,0 +1,25 @@
+Pros:
+
+Reutilización de Lógica: Permite la reutilización de lógica entre varios componentes. Puedes encapsular la funcionalidad común en un HOC y aplicarlo a diferentes componentes según sea necesario.
+
+Abstracción de Funcionalidad: Ayuda a abstraer la lógica compleja y repetitiva fuera de los componentes presentacionales, manteniendo así la claridad y simplicidad en el código de esos componentes.
+
+Composición: Facilita la composición de comportamientos. Puedes combinar varios HOCs para agregar diferentes funcionalidades a un componente sin modificar su código interno.
+
+Encadenamiento: Los HOCs pueden encadenarse, lo que significa que puedes aplicar múltiples HOCs a un componente en un orden específico, cada uno contribuyendo a la funcionalidad del componente.
+
+
+
+
+
+Contras:
+
+Dificultad para Entender el Flujo de Datos: A medida que aumenta la complejidad y el número de HOCs en una aplicación, puede volverse difícil rastrear el flujo de datos y entender de dónde provienen las propiedades y los estados.
+
+Posible Contaminación de Props: Si no se maneja adecuadamente, los HOCs pueden introducir props adicionales en los componentes, lo que podría llevar a una posible contaminación del espacio de nombres de las props.
+
+Pérdida de Contexto: Algunas veces, los HOCs pueden hacer que sea menos claro entender el contexto en el que se utiliza un componente, ya que la lógica puede residir en un HOC en lugar del propio componente.
+
+Complejidad de Depuración: La depuración puede volverse más complicada cuando se utilizan múltiples HOCs, ya que entender cómo interactúan entre sí puede requerir un esfuerzo adicional.
+
+Alternativas con Hooks: Con la introducción de React Hooks, algunas funcionalidades que anteriormente se implementaban con HOCs ahora pueden lograrse de manera más limpia y simple con hooks, lo que podría hacer que los HOCs sean menos utilizados en ciertos casos.

@@ -1,0 +1,24 @@
+Pros:
+
+
+
+Reutilización de Componentes: Facilita la reutilización de componentes individuales en diferentes contextos, ya que los componentes más pequeños pueden ser utilizados de forma independiente en otros lugares.
+
+Mantenimiento: Dividir la lógica en componentes más pequeños facilita el mantenimiento del código. Cada componente tiene una responsabilidad específica y puede ser modificado o mejorado sin afectar directamente a otros componentes.
+
+Flexibilidad y Personalización: Permite a los desarrolladores mayor flexibilidad al componer los elementos según sus necesidades. Cada componente puede ser personalizado o extendido de manera independiente, proporcionando un alto grado de flexibilidad.
+
+Claridad y Legibilidad: Mejora la claridad y la legibilidad del código al dividir la interfaz de usuario en partes más pequeñas y manejables. Cada componente se centra en una tarea específica.
+
+
+
+Contras:
+
+
+Complejidad Inicial: La implementación inicial de "Compound Components" puede ser más compleja en comparación con un enfoque donde todo está contenido en un solo componente. Puede llevar tiempo entender cómo se conectan y comunican entre sí los componentes.
+
+Coordinación entre Componentes: En algunos casos, la coordinación entre los componentes puede ser un desafío, especialmente si se necesitan compartir datos o estado entre ellos. Puede requerir una buena gestión del estado o el uso de técnicas como "lifting state up".
+
+Mayor Curva de Aprendizaje: Para nuevos desarrolladores o aquellos menos familiarizados con este patrón, puede haber una mayor curva de aprendizaje para comprender cómo se relacionan los distintos componentes y cómo se deben utilizar de manera efectiva.
+
+Posible Exceso de Flexibilidad: En algunos casos, la flexibilidad proporcionada por "Compound Components" puede llevar a un exceso de configuraciones y personalizaciones, lo que podría complicar la implementación y mantenimiento.
